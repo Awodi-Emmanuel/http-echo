@@ -5,7 +5,8 @@ With Helm</h3>
 http-echo
 =========
 
-![alt text](image.png)
+![alt text](https://github.com/Awodi-Emmanuel/http-echo/image.png)
+
 HTTP Echo is a small go web server that serves the contents it was started with
 as an HTML page.
 
