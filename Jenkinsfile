@@ -47,9 +47,8 @@ pipeline {
         stage('Kubernetes Deploy') {
             steps {
                 // sh "helm upgrade --install http-echo-release ./helm-http-echo --set image.repository=awodi2525/img-http-echo --set image.tag=latest"
-                sh "helm upgrade ./chart-http-echo"
+                sh "helm upgrade --install http-echo-release ./chart-http-echo"
             }
         }
     }
 }
-
